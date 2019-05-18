@@ -13,17 +13,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    void doJog(View view){
+    public void doJog(View view){
         Intent intent = new Intent(this, JogActivity.class);
         startActivity(intent);
     }
 
-    void doStats(View view){
+    public void doStats(View view){
         Intent intent = new Intent(this, StatsActivity.class);
         startActivity(intent);
     }
 
-    void doVersion(View view){
+    public void doVersion(View view){
         Intent intent = new Intent(this, VersionActivity.class);
         startActivity(intent);
     }

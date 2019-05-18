@@ -89,7 +89,7 @@ public class JogActivity extends AppCompatActivity implements LocationListener,
     * Distance is logged
     * Map updates to position
      */
-    void doStart(View view) {
+    public void doStart(View view) {
         totalDistance = 0;
         //only start if weve got a location
         if (loc != null) {
@@ -158,7 +158,7 @@ public class JogActivity extends AppCompatActivity implements LocationListener,
     /*
     *Stop thread and reset
      */
-    void doStop(View view) {
+    public void doStop(View view) {
 
         t.interrupt();
         t = null;
@@ -168,7 +168,7 @@ public class JogActivity extends AppCompatActivity implements LocationListener,
     /*
     *Save the stopped run
      */
-    void doSave(View view) {
+    public void doSave(View view) {
         SharedPreferences sharedPreferences = this.getSharedPreferences("global", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
