@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VSJogger</string>
+    <string name="title_activity_stats">Statistics</string>
+    <string name="title_activity_config">Configuration</string>
+    <string name="title_activity_version">VersionActivity</string>
+    <string name="title_activity_jog">JogActivity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_activitys">Map</string>
+    <string name="jrelease">17-05-2016</string>
+    <string name="jversion">1.0.0</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="jVersion">1.0.0</string>
+    <string name="jDate">17-05-2016</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
